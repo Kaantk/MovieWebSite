@@ -1,0 +1,32 @@
+// Mobile
+@import './ResponsiveDesign/mobile';
+
+// Tablet 
+@import './ResponsiveDesign/tablet';
+
+// Desktop 
+@import './ResponsiveDesign/desktop';
+
+// Variables
+@import './scss/variables';
+
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+ul,p,h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #46555e;
+}
+
+h3:hover {
+    cursor: pointer;
+}

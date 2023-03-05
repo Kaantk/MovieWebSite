@@ -1,0 +1,306 @@
+@import '../scss/variables';
+
+@media screen and (min-width:1280px) {
+    #Header {
+        background: #283137;
+        
+        header {
+            @include flex-c-s;
+            width: 1200px;
+            margin: auto;
+            padding: 0.5em 0em;
+
+            .Menu {
+                ul {
+                    @include flex-c-s;
+                    a {
+                        color: #ffffff;
+                        margin: 0em 0.5em;
+                        background-color: #3D4952;
+                        padding: 1em;
+                        font-size: 0.75em;
+                        border-radius: 2em;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    #MenuBot {
+        background: #39464d;
+
+        .BotMenu {
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            padding: 0.5em 0.5em 0.5em 0em;
+            @include flex-c-s;
+            margin-bottom: 1em;
+
+            p {
+                color: #ffffff;
+                font-size: 0.75em;
+            }
+
+            .SearchBox {
+                position: relative;
+                margin-left: auto;
+                input {
+                    border: 0;
+                    background: #232c30;
+                    color: #8a949b;
+                    outline: none;
+                    font-size: 0.75em;
+                    padding: 0.75em 2.5em 0.75em 0.75em;
+                    width: 200px;
+                }
+                i {
+                    position: absolute;
+                    top: 6px;
+                    right: 8px;
+                    color: #8a949b;
+                }
+            }
+
+        }
+
+    }
+
+    .SlideShowContainer {
+        @include flex-c-s;
+        width: 1200px;
+        margin: auto;
+        background-color: #d3dee6;
+        // -webkit-box-shadow: 1px 1px 25px #000;
+        border-radius: 1em;
+        padding: 1em;
+        margin-bottom: 1em;
+
+        a {
+
+            img {
+                border-radius: 0.5em;
+            }
+
+        }
+
+    }
+
+    .Index {
+        width: 1200px;
+        margin: auto;
+        background-color: #d3dee6;
+        display: flex;
+        border-radius: 0.5em;
+        padding: 0.5em;
+        margin-bottom: 1em;
+
+        .Content {
+            width: 75%;
+            border: 1px solid #afbbc7;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+
+            .ContentHeader {
+                padding: 0.5em;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+                border-bottom: 1px solid #afbbc7;
+                background: -webkit-linear-gradient(top,#F2F5F9,#D6E6F0);
+
+                h4 {
+                    font: 700 14px arial;
+                    color: #344f5e;
+                    text-shadow: 0.1em 0.1em 0.05em #fff;
+                }
+            }
+
+            .Movies {
+                @include flex-c-s;
+                flex-wrap: wrap;
+                padding: 0em 0.5em;
+                
+                .MovieBox {
+                    position: relative;
+
+                  img {
+                      width: 150px;
+                      height: 220px;
+                      border-radius: 0.25em;
+                      margin: 0.5em 0em;
+                    }  
+
+                    .BoxHeader {
+                        position: absolute;
+                        top: 15px;
+                        left: 5px;
+                        @include flex-c-s;
+
+                        span {
+                            color: #ccc;
+                            font-size: 13px;
+                            font-weight: normal;
+                            overflow: hidden;
+                            background: rgba(0,0,0,0.75);
+                            padding: 4px 6px;
+                            border-radius: 5px;
+                            text-align: center;
+                        }
+                        
+                    }
+
+                    .BoxFooter {
+                        position: absolute;
+                        bottom: 15px;
+                        left: 2px;
+                        background: rgba(0,0,0,0.75);
+                        padding: 4px 6px;
+                        border-radius: 5px;
+                        text-align: center;
+
+                        .MovieName {
+                            color: #ffd70d;
+                            font: 700 15px arial;
+                            white-space: nowrap;
+                        }
+
+                        .MovieLanguage {
+                            @include flex-c-s;
+
+                            span.Language {
+                                font-size: 0.75em;
+                                color: #fff;
+                                width: calc(100% - 38px);
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                margin-top: 0.25em;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .Sidebar {
+            width: 24%;
+            margin-left: auto;
+
+            .ContentList {
+
+                .SidebarHeader {
+                    padding: 0.5em;
+                    border: 1px solid #afbbc7;
+                    border-top-left-radius: 6px;
+                    border-top-right-radius: 6px;
+                    border-bottom: 1px solid #afbbc7;
+                    background: -webkit-linear-gradient(top,#F2F5F9,#D6E6F0);
+    
+                    h4 {
+                        font: 700 14px arial;
+                        color: #344f5e;
+                        text-shadow: 0.1em 0.1em 0.05em #fff;
+                    }
+    
+                }
+
+                .SidebarContent {
+                    margin-bottom: 2em;
+                    padding: 0.5em;
+                    border: 1px solid #afbbc7;
+                    background: -webkit-linear-gradient(top,#F2F5F9,#D6E6F0);
+
+                    ul {
+                        @include flex-c-s;
+                        flex-wrap: wrap;
+                        
+                        a { 
+                            color: #364045;
+                            white-space: nowrap;
+                            border: 1px solid #afbbc7;
+                            width: 50%;
+                            font: 700 12px arial;
+                            padding: 0.5em 0.5em;
+                            background: -webkit-linear-gradient(top,#F2F5F9,#D6E6F0);
+                        }
+
+                    }
+                }
+
+            }
+
+            .ByYear {
+                display: flex;
+                flex-direction: column;
+            
+                .SidebarHeader {
+                    padding: 0.5em;
+                    border: 1px solid #afbbc7;
+                    border-top-left-radius: 6px;
+                    border-top-right-radius: 6px;
+                    border-bottom: 1px solid #afbbc7;
+                    background: -webkit-linear-gradient(top,#F2F5F9,#D6E6F0);
+    
+                    h4 {
+                        font: 700 14px arial;
+                        color: #344f5e;
+                        text-shadow: 0.1em 0.1em 0.05em #fff;
+                    }
+    
+                }
+                
+                .ListContent {
+                    background: -webkit-linear-gradient(top,#F2F5F9,#D6E6F0);
+                    padding: 0.5em;
+                    border: 1px solid #afbbc7;
+
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        a {
+                            color: #364045;
+                            font: 700 12px arial;
+                            border: 1px solid #afbbc7;
+                            
+                            padding: 0.5em 0.75em;
+                            text-align: center;
+                            width: 25%;
+                            text-shadow: 0.1em 0.1em 0.05em #fff;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    footer {
+        width: 1200px;
+        height: 200px;
+        background-color: #d3dee6;
+        margin: auto;
+        border-radius: 0.5em;
+        margin-bottom: 1em;
+        padding: 1.5em;
+
+        p {
+            font: 12px arial;
+        }
+
+    }
+
+}
+
+

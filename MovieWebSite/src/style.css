@@ -1,0 +1,332 @@
+@media screen and (min-width: 1280px) {
+  #Header {
+    background: #283137;
+  }
+  #Header header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    padding: 0.5em 0em;
+  }
+  #Header header .Menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #Header header .Menu ul a {
+    color: #ffffff;
+    margin: 0em 0.5em;
+    background-color: #3D4952;
+    padding: 1em;
+    font-size: 0.75em;
+    border-radius: 2em;
+  }
+  #MenuBot {
+    background: #39464d;
+  }
+  #MenuBot .BotMenu {
+    width: 1200px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.5em 0.5em 0.5em 0em;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 1em;
+  }
+  #MenuBot .BotMenu p {
+    color: #ffffff;
+    font-size: 0.75em;
+  }
+  #MenuBot .BotMenu .SearchBox {
+    position: relative;
+    margin-left: auto;
+  }
+  #MenuBot .BotMenu .SearchBox input {
+    border: 0;
+    background: #232c30;
+    color: #8a949b;
+    outline: none;
+    font-size: 0.75em;
+    padding: 0.75em 2.5em 0.75em 0.75em;
+    width: 200px;
+  }
+  #MenuBot .BotMenu .SearchBox i {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    color: #8a949b;
+  }
+  .SlideShowContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    background-color: #d3dee6;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  .SlideShowContainer a img {
+    border-radius: 0.5em;
+  }
+  .Index {
+    width: 1200px;
+    margin: auto;
+    background-color: #d3dee6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }
+  .Index .Content {
+    width: 75%;
+    border: 1px solid #afbbc7;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .Index .Content .ContentHeader {
+    padding: 0.5em;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid #afbbc7;
+    background: -webkit-linear-gradient(top, #F2F5F9, #D6E6F0);
+  }
+  .Index .Content .ContentHeader h4 {
+    font: 700 14px arial;
+    color: #344f5e;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+  }
+  .Index .Content .Movies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0em 0.5em;
+  }
+  .Index .Content .Movies .MovieBox {
+    position: relative;
+  }
+  .Index .Content .Movies .MovieBox img {
+    width: 150px;
+    height: 220px;
+    border-radius: 0.25em;
+    margin: 0.5em 0em;
+  }
+  .Index .Content .Movies .MovieBox .BoxHeader {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .Index .Content .Movies .MovieBox .BoxHeader span {
+    color: #ccc;
+    font-size: 13px;
+    font-weight: normal;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 4px 6px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .Index .Content .Movies .MovieBox .BoxFooter {
+    position: absolute;
+    bottom: 15px;
+    left: 2px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 4px 6px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .Index .Content .Movies .MovieBox .BoxFooter .MovieName {
+    color: #ffd70d;
+    font: 700 15px arial;
+    white-space: nowrap;
+  }
+  .Index .Content .Movies .MovieBox .BoxFooter .MovieLanguage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .Index .Content .Movies .MovieBox .BoxFooter .MovieLanguage span.Language {
+    font-size: 0.75em;
+    color: #fff;
+    width: calc(100% - 38px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 0.25em;
+  }
+  .Index .Sidebar {
+    width: 24%;
+    margin-left: auto;
+  }
+  .Index .Sidebar .ContentList .SidebarHeader {
+    padding: 0.5em;
+    border: 1px solid #afbbc7;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid #afbbc7;
+    background: -webkit-linear-gradient(top, #F2F5F9, #D6E6F0);
+  }
+  .Index .Sidebar .ContentList .SidebarHeader h4 {
+    font: 700 14px arial;
+    color: #344f5e;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+  }
+  .Index .Sidebar .ContentList .SidebarContent {
+    margin-bottom: 2em;
+    padding: 0.5em;
+    border: 1px solid #afbbc7;
+    background: -webkit-linear-gradient(top, #F2F5F9, #D6E6F0);
+  }
+  .Index .Sidebar .ContentList .SidebarContent ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Index .Sidebar .ContentList .SidebarContent ul a {
+    color: #364045;
+    white-space: nowrap;
+    border: 1px solid #afbbc7;
+    width: 50%;
+    font: 700 12px arial;
+    padding: 0.5em 0.5em;
+    background: -webkit-linear-gradient(top, #F2F5F9, #D6E6F0);
+  }
+  .Index .Sidebar .ByYear {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Index .Sidebar .ByYear .SidebarHeader {
+    padding: 0.5em;
+    border: 1px solid #afbbc7;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid #afbbc7;
+    background: -webkit-linear-gradient(top, #F2F5F9, #D6E6F0);
+  }
+  .Index .Sidebar .ByYear .SidebarHeader h4 {
+    font: 700 14px arial;
+    color: #344f5e;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+  }
+  .Index .Sidebar .ByYear .ListContent {
+    background: -webkit-linear-gradient(top, #F2F5F9, #D6E6F0);
+    padding: 0.5em;
+    border: 1px solid #afbbc7;
+  }
+  .Index .Sidebar .ByYear .ListContent ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Index .Sidebar .ByYear .ListContent ul a {
+    color: #364045;
+    font: 700 12px arial;
+    border: 1px solid #afbbc7;
+    padding: 0.5em 0.75em;
+    text-align: center;
+    width: 25%;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+  }
+  footer {
+    width: 1200px;
+    height: 200px;
+    background-color: #d3dee6;
+    margin: auto;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    padding: 1.5em;
+  }
+  footer p {
+    font: 12px arial;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+ul, p, h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #46555e;
+}
+
+h3:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
